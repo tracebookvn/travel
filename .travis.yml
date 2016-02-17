@@ -1,6 +1,7 @@
 language: php
 php: '7.0'
+sudo: required
 install: 
  - php composer.phar install
- - nginx
+ - yum install nginx
  
